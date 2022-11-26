@@ -1,0 +1,80 @@
+.hero {
+  max-width: 480px;
+  margin: 0 auto;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  text-align: center;
+  background-image: linear-gradient(to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(50, 48, 58, 0.4)),
+    url(../images/hero-background480.jpg);
+  background-color: #2f303a;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background-image: linear-gradient(to bottom,
+          rgba(47, 48, 58, 0.4),
+          rgba(50, 48, 58, 0.4)),
+        url(../images/hero-background480@2x.jpg);
+    }
+
+    @media (min-width: 768px) {
+      max-width: 768px;
+      background-image: linear-gradient(to bottom,
+            rgba(47, 48, 58, 0.4),
+            rgba(50, 48, 58, 0.4)),
+          url(../images/hero-background768.jpg);
+            @media (min-device-pixel-ratio: 2),
+              (min-resolution: 192dpi),
+              (min-resolution: 2dppx) {
+                background-image: linear-gradient(to bottom,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(50, 48, 58, 0.4)),
+                  url(../images/hero-background768@2x.jpg);
+              }
+      }
+    @media (min-width: 1200px) {
+      max-width: 1200px;
+      padding-top: 200px;
+      padding-bottom: 200px;
+      background-image: linear-gradient(to bottom,
+          rgba(47, 48, 58, 0.4),
+          rgba(50, 48, 58, 0.4)),
+        url(../images/hero-background1200.jpg);
+          @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+              background-image: linear-gradient(to bottom,
+                  rgba(47, 48, 58, 0.4),
+                  rgba(50, 48, 58, 0.4)),
+                url(../images/hero-background1200@2x.jpg);
+            }
+    }
+}
+
+
+
+
+/* hero-title */
+.hero__title {
+
+  font-size: 26px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--primary-background-color);
+    @media (min-width: 768px) {
+      width: 360px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      }
+    @media (min-width: 1200px) {
+    width: 664px;
+    font-size: 44px;
+    line-height: 1.36;
+    }
+}
+
+
+
