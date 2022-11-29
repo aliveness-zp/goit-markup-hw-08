@@ -13,6 +13,10 @@
   font-size: 12px;
 }
 
+.modal__checkbox-label p {
+  font-size: 12px;
+}
+
 .modal__input-wrapper {
   position: relative;
 }
@@ -63,8 +67,13 @@
 .modal__checkbox-label {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 7px;
   margin-bottom: 30px;
+}
+
+.modal__checkbox-text {
+  font-size: 12px;
 }
 
 .modal__checkbox {
